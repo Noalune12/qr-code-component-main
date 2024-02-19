@@ -16,6 +16,8 @@ body {
   width: 300px;
   margin-top: 80px;
   margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 15px;
   border-radius: 20px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
@@ -37,7 +39,7 @@ body {
   color: hsl(220, 15%, 55%);
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
 
   .attribution { 
@@ -46,3 +48,10 @@ body {
 
   .attribution a { 
     color: hsl(228, 45%, 44%); }
+
+    @media screen and (max-width: 375px) {
+      .qr-code {
+      margin-top: 60px;  
+      width: 80%;
+      }
+      }
